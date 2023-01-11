@@ -1,0 +1,23 @@
+# Init git (à faire qu'une fois)
+git init
+
+# Ajouter ces fichiers
+git add .gitignore
+git add readme.md
+git add ansible
+git add terraform
+git commit -m 'Projet final'
+
+# On passe sur un branche main
+git branch -M main
+
+# On ajoute un remote
+git remote add origin git@github.com:SiammourMohamed/Projet_Terraform-ansible.git
+
+# On push
+git push -u origin main
+
+# Si modification il faut encore 
+add
+commit
+push
